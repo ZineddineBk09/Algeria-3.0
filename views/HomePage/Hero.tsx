@@ -1,12 +1,11 @@
-import NextLink from 'next/link';
 import styled from 'styled-components';
 import Button from 'components/Button';
 import ButtonGroup from 'components/ButtonGroup';
 import Container from 'components/Container';
-import HeroIllustration from 'components/HeroIllustation';
 import OverTitle from 'components/OverTitle';
 import { useNewsletterModalContext } from 'contexts/newsletter-modal.context';
 import { media } from 'utils/media';
+import Image from 'next/image';
 
 export default function Hero() {
   const { setIsModalOpened } = useNewsletterModalContext();
@@ -14,25 +13,27 @@ export default function Hero() {
   return (
     <HeroWrapper>
       <Contents>
-        <CustomOverTitle>the coolest, saas product you have ever seen</CustomOverTitle>
-        <Heading>Make your life easier with our SaaS</Heading>
-        <Description>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, tempora qui. Explicabo voluptate iure ipsum molestias
-          repudiandae perspiciatis nostrum praesentium, unde pariatur tempora magni rem. Necessitatibus facilis obcaecati ratione.
+        <CustomOverTitle>the first web3 adopters in algeria</CustomOverTitle>
+        <Heading>Algeria 3.0, Web3 is The Future</Heading>
+        <Description className='animate-bounce overflow-hidden transition-all duration-300'>
+          Algeria 3.0 is a community of developers, designers, and crypto enthusiasts who are passionate about building the future of the
+          web. We are the first web3 adopter in Algeria.
         </Description>
         <CustomButtonGroup>
           <Button onClick={() => setIsModalOpened(true)}>
             Subscribe to the newsletter <span>&rarr;</span>
           </Button>
-          <NextLink href="#whitepaper" passHref>
-            <Button transparent>
-              Features <span>&rarr;</span>
-            </Button>
-          </NextLink>
         </CustomButtonGroup>
       </Contents>
       <ImageContainer>
-        <HeroIllustration />
+        <Image
+          src="/ETH gem.png"
+          alt="Algeria 3.0"
+          width={750}
+          height={500}
+          objectFit="contain"
+          className="!animate-bounce overflow-hidden transition-all duration-300"
+        />
       </ImageContainer>
     </HeroWrapper>
   );

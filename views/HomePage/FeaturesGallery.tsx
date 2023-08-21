@@ -10,26 +10,26 @@ import { media } from 'utils/media';
 
 const TABS = [
   {
-    title: 'Find relevant media contacts - multiline title',
+    title: 'Find relevant Crypto - NFT news',
     description:
-      '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem ipsam ratione dicta quis cupiditate consequuntur laborum ducimus iusto velit.</p>',
-    imageUrl: '/demo-illustration-3.png',
+      '<p>By joining our community, you will be the first to know about the latest trends in the web3 ecosystem. We will share with you the latest news about the crypto world, NFTs, DAOs, and much more.</p>',
+    imageUrl: '/algeria 3.0.jpg',
     baseColor: '249,82,120',
     secondColor: '221,9,57',
   },
   {
-    title: 'Another amazing feature',
+    title: 'Learn from the best',
     description:
-      '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem ipsam ratione dicta quis cupiditate consequuntur laborum ducimus iusto velit.</p>',
-    imageUrl: '/demo-illustration-4.png',
+      'We have a lot of talented people in our community. We will share with you our knowledge and experience in the web3 ecosystem. We will also organize workshops and events to help you learn more about the web3 ecosystem.',
+    imageUrl: '/algeria 3.0.jpg',
     baseColor: '57,148,224',
     secondColor: '99,172,232',
   },
   {
     title: 'And yet... another truly fascinating feature',
     description:
-      '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem ipsam ratione dicta quis cupiditate consequuntur laborum ducimus iusto velit.</p>',
-    imageUrl: '/demo-illustration-5.png',
+      'Get to know the community and meet new people. We will organize events and workshops to help you meet new people and expand your network.',
+    imageUrl: '/algeria 3.0.jpg',
     baseColor: '88,193,132',
     secondColor: '124,207,158',
   },
@@ -44,7 +44,7 @@ export default function FeaturesGallery() {
 
     return (
       <ImageContainer key={singleTab.title} isActive={isActive}>
-        <NextImage src={singleTab.imageUrl} alt={singleTab.title} layout="fill" objectFit="contain" priority={isFirst} />
+        <NextImage src={singleTab.imageUrl} alt={singleTab.title} layout="fill" objectFit="cover" priority={isFirst} />
       </ImageContainer>
     );
   });
@@ -76,7 +76,7 @@ export default function FeaturesGallery() {
   return (
     <FeaturesGalleryWrapper>
       <Content>
-        <OverTitle>features</OverTitle>
+        <OverTitle>what is Algeria 3.0 exactly?</OverTitle>
         <SectionTitle>What are you signing in for?</SectionTitle>
       </Content>
       <GalleryWrapper>

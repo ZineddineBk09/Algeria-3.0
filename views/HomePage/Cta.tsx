@@ -13,22 +13,20 @@ export default function Cta() {
     <CtaWrapper>
       <Container>
         <Stack>
-          <OverTitle>Lorem ipsum dolor sit amet</OverTitle>
-          <SectionTitle>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus delectus?</SectionTitle>
+          <OverTitle>web3 is the future</OverTitle>
+          <SectionTitle>
+            Why web3 is the future? <br />
+            And why you should join us?
+          </SectionTitle>
           <Description>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda beatae accusamus deleniti nihil quas tempora numquam, vitae
-            culpa.
+            The goal of Web3 is making the user experience more dynamic while giving greater data sovereignty and privacy to internet users
+            rather than the select corporations that control Web 2.0
           </Description>
           <ButtonGroup>
             <NextLink href="#early-access" passHref>
               <Button>
                 Subscribe to the newsletter <span>&rarr;</span>
               </Button>
-            </NextLink>
-            <NextLink href="#whitepaper" passHref>
-              <OutlinedButton transparent>
-                Features <span>&rarr;</span>
-              </OutlinedButton>
             </NextLink>
           </ButtonGroup>
         </Stack>

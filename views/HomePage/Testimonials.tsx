@@ -11,16 +11,16 @@ import { media } from 'utils/media';
 const TESTIMONIALS = [
   {
     companyLogoUrl: '/testimonials/company-logo-1.svg',
-    content: `Really good. I am so pleased with this product. I didn't even need training.`,
+    content: `I'm really happy to have joined this community. I've learned a lot about the web3 ecosystem. I'm really excited about the future of the web`,
     author: {
-      name: 'Clyde Edwards',
+      name: 'Zineddine Benkhaled',
       title: 'Very Serious Man',
-      avatarUrl: '/testimonials/author-photo-1.jpeg',
+      avatarUrl: '/testimonials/me.jpg',
     },
   },
   {
     companyLogoUrl: '/testimonials/company-logo-2.svg',
-    content: `It's really wonderful. I use saas product often. Thank You! Saas product has really helped our business.`,
+    content: `It's really wonderful. I would like to personally thank you for your outstanding product. I would also like to say thank you to all your staff.`,
     author: {
       name: 'Jimmy Hunter',
       title: 'Sigma Male University Graduate',
@@ -29,7 +29,7 @@ const TESTIMONIALS = [
   },
   {
     companyLogoUrl: '/testimonials/company-logo-3.svg',
-    content: `Since I invested in saas product I made over 100,000 dollars profits. It really saves me time and effort. saas product is exactly what our business has been lacking.`,
+    content: `It's been amazing working with Algeria3.0 community. I've learned a lot about the web3 ecosystem. I'm really excited about the future of the web`,
     author: {
       name: 'Marjorie Morgan',
       title: 'Chief Chad Officer',
