@@ -17,7 +17,7 @@ export default function Homepage() {
         <title>{EnvVars.SITE_NAME}</title>
         <meta
           name="description"
-          content="Tempor nostrud velit fugiat nostrud duis incididunt Lorem deserunt est tempor aute dolor ad elit."
+          content="Algeria3.0 is a community of developers, designers, and crypto enthusiasts who are passionate about building the future of the web in Algeria. We are the first web3 adopters in Algeria"
         />
       </Head>
       <HomepageWrapper>

@@ -15,7 +15,7 @@ export default function Hero() {
       <Contents>
         <CustomOverTitle>the first web3 adopters in algeria</CustomOverTitle>
         <Heading>Algeria 3.0, Web3 is The Future</Heading>
-        <Description className='animate-bounce overflow-hidden transition-all duration-300'>
+        <Description className="animate-bounce overflow-hidden transition-all duration-300">
           Algeria 3.0 is a community of developers, designers, and crypto enthusiasts who are passionate about building the future of the
           web. We are the first web3 adopter in Algeria.
         </Description>
@@ -68,9 +68,17 @@ const ImageContainer = styled.div`
   flex: 1;
   justify-content: flex-end;
   align-items: flex-start;
-
-  svg {
-    max-width: 45rem;
+  animation: bounce 3s infinite;
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+    100% {
+      transform: translateY(0);
+    }
   }
 
   ${media('<=desktop')} {

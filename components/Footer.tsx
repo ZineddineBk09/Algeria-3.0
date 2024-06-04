@@ -58,19 +58,19 @@ export default function Footer() {
         <BottomBar>
           <ShareBar>
             <NextLink href="https://www.facebook.com/profile.php?id=100090103451879" passHref>
-              <a>
+              <a target="_blank">
                 <TwitterIcon size={50} round={true} />
               </a>
             </NextLink>
 
             <NextLink href="https://www.facebook.com/profile.php?id=100090103451879" passHref>
-              <a>
+              <a target="_blank">
                 <FacebookIcon size={50} round={true} />
               </a>
             </NextLink>
 
             <NextLink href="https://www.facebook.com/profile.php?id=100090103451879" passHref>
-              <a>
+              <a target="_blank">
                 <LinkedinIcon size={50} round={true} />
               </a>
             </NextLink>
